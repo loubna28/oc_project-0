@@ -64,7 +64,9 @@ public class Product {
 	}
 
 	public double getInventoryPrice() {
-		// TODO Auto-generated method stub
-		return 0.0;
+		
+		//total value of the stock in the details field
+		return quantity*price;
+
 	}
 }
